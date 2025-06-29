@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DD Badminton Academy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>DD Badminton Academy</h1>
+    <nav>
+      <button id="menu-toggle">☰</button>
+      <div id="nav-links">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#schedule">Timings</a>
+        <a href="#register">Register</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Smash Your Limits</h2>
+    <p>Join the best badminton academy in town.</p>
+  </section>
+
+  <section class="smash-anime">
+    <h2>Power Smash Mode</h2>
+    <img src="anime-smash.gif" alt="Anime Smash Player" />
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We provide world-class badminton training for all age groups. Come, be a part of our energetic community!</p>
+  </section>
+
+  <section id="schedule" class="schedule">
+    <h2>Class Schedule</h2>
+    <table>
+      <tr><th>Day</th><th>Timing</th><th>Batch</th></tr>
+      <tr><td>Mon - Fri</td><td>6:00 AM - 8:00 AM</td><td>Beginners</td></tr>
+      <tr><td>Mon - Fri</td><td>6:00 PM - 8:00 PM</td><td>Intermediate</td></tr>
+      <tr><td>Weekend</td><td>8:00 AM - 10:00 AM</td><td>Advanced</td></tr>
+    </table>
+  </section>
+
+  <section id="register" class="register">
+    <h2>Register Now</h2>
+    <form id="register-form">
+      <label>Name:</label><br />
+      <input type="text" name="name" required><br /><br />
+      <label>Email:</label><br />
+      <input type="email" name="email" required><br /><br />
+      <label>Age Group:</label><br />
+      <select name="age" required>
+        <option value="junior">Junior (U-13)</option>
+        <option value="teen">Teen (13–18)</option>
+        <option value="adult">Adult (18+)</option>
+      </select><br /><br />
+      <button type="submit">Submit</button>
+    </form>
+    <div id="thank-you" style="display: none;"></div>
+  </section>
+
+  <section class="gallery">
+    <h2>Our Academy in Action</h2>
+    <div class="gallery-grid">
+      <img src="img1.jpg" alt="Training 1" />
+      <img src="img2.jpg" alt="Training 2" />
+      <img src="img3.jpg" alt="Coaching" />
+      <img src="img4.jpg" alt="Tournaments" />
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: contact@ddbadminton.com</p>
+    <p>Phone: +91 98765 43210</p>
+  </section>
+
+  <footer>
+    <p>© 2025 DD Badminton Academy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
